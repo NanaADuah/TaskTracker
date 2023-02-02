@@ -1,0 +1,103 @@
+﻿/*Custom font*/
+@font-face{
+    font-family: Comfortaa;
+    src: url("src/assets/font/Comfortaa.ttf");
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url("src/assets/font/Roboto.ttf");
+    font-weight: 500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .5s ease-in-out;
+    user-select: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+i{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+i:hover{
+    cursor: pointer; 
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    color: black;
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #ffffff !important;
+}
+
+main {
+    width: 40%;
+    min-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 5%;
+    border-radius: 5px;
+    border: 1px solid #909090;
+    margin-bottom: 40px;
+}
+
+#btnClose {
+    font-size: 0.7rem;
+    margin-left: auto !important;
+    padding: 3px 12px !important;
+}
+
+#btnSaveTask{
+    margin-bottom: 20px !important;    
+}
+
+.textInput{
+    width: 100%;
+    border: 1px solid black;
+    color: black;
+    padding: 0px 5px 0px 5px;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+.textInput:focus{
+    outline: none;
+}
+
+.textInput:hover {
+    border: 2px solid black;
+    color: black;
+    border-radius: 3px;
+}
+
+h1{
+    padding: 0px;
+    margin: 0px !important;
+}
+
+.taskSingle{
+    border: none;
+    color: black;
+    padding: 0px !important;
+}
+
+#selection{
+    width:3px;
+    margin-right: 3px;
+}
+
+#details{
+    background: #eee !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
